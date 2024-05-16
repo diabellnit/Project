@@ -4,11 +4,11 @@
    
 cd express-threads-api
 
-3. Переименовать файл .env.local (убрать .local)
+2. Переименовать файл .env.local (убрать .local)
    
 .env
 
-5. docker run --name mongo \
+3. docker run --name mongo \
        -p 27017:27017 \
        -e MONGO_INITDB_ROOT_USERNAME="monty" \
        -e MONGO_INITDB_ROOT_PASSWORD="pass" \
