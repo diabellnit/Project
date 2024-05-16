@@ -5,6 +5,7 @@
 cd express-threads-api
 
 3. Переименовать файл .env.local (убрать .local)
+   
 .env
 
 5. docker run --name mongo \
